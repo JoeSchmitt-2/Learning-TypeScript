@@ -1,8 +1,8 @@
-let userName: string = "Jack";
+let userName: string = "Joe";
 let hasLoggedIn: boolean = true;
 
 
-userName += " herrington";
+userName += " Schmitt";
 
 console.log(userName);
 
@@ -20,8 +20,8 @@ interface Person {
 }
 
 const myPerson: Person = {
-    first: "Jack",
-    last: "Herrington"
+    first: "Joe",
+    last: "Schmitt"
 }
 
 const ids: Record<number, string> = {
